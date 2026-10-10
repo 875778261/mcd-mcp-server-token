@@ -1,0 +1,37 @@
+# ---- 敏感信息：MCP Token（严禁提交）----
+# 参赛声明「信息安全声明」要求：不得包含真实 Token，配置仅使用环境变量占位符
+docs/mcd-mcp-server-token.txt
+.env
+.env.*
+!.env.example
+*.token
+*_token.txt
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ---- WorkBuddy 本地数据 ----
+.workbuddy/
+.ua/
+.lhl-work-output/

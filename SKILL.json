@@ -1,0 +1,19 @@
+{
+  "name": "mcd-fitness-meal",
+  "version": "1.0.0",
+  "description": "基于麦当劳中国 MCP 的健身餐搭配助手。在官方 160 款真实在售餐品的营养数据上求解套餐，输出热量误差≤±5%、蛋白缺口克数、钠预警与预算方案，并可完成真实点餐。",
+  "license": "MIT",
+  "author": "lhl",
+  "keywords": ["mcd", "mcp", "fitness", "meal-plan", "nutrition", "macros", "麦当劳", "健身餐"],
+  "mcpServers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "auth": {
+        "type": "bearer",
+        "env": "MCD_MCP_TOKEN",
+        "description": "从 https://open.mcd.cn/mcp 申请 MCP Token，通过环境变量 MCD_MCP_TOKEN 注入"
+      }
+    }
+  }
+}
