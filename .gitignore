@@ -32,6 +32,6 @@ Thumbs.db
 !.vscode/extensions.json
 
 # ---- WorkBuddy 本地数据 ----
-.workbuddy/
+
 .ua/
 .lhl-work-output/
